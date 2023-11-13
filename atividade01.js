@@ -1,12 +1,16 @@
-let i = 1
-do{
-    console.log("Botafogo ruim")
-    i++
-}while (i<i);
-
-let contador = 0
-do{
+let contador = 1
+while(contador <= 10){
     console.log(contador)
     contador++
-}while(contador<10)
-console.log("===>" + contador)
+}
+
+while(contador >= 1){
+    console.log(contador)
+    contador--
+}
+    
+let i = 1
+while(i <= 1){
+    console.log("Botafogo Campeão")
+    i++
+}
